@@ -9,8 +9,8 @@ Tarcisio: email_primeiro_componente@dominio.com<br>
 Lucas Erlacher Rodrigues: lucaserlacher@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados Mapa de Ocorrências.
+<br>A priori este projeto foi visto como potencial para se tornar um sistema real que contribuiria diretamente para a tomada de decisões no setor da segurança pública, visto que hoje há uma falha muito grande na forma de policiamento das ruas e bairros, sendo prejudicial até mesmo ao próprio morador. Outra grande motivação para o desenvolvimento do mesmo é a possibilidade de tornar este projeto em uma ferramenta que permita aos moradores de qualquer município do ES cobrar aos órgãos responsáveis pela devida patrulha.<br>
 
 ### 3.MINI-MUNDO<br>
 
