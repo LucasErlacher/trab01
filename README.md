@@ -5,7 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Tarcisio: email_primeiro_componente@dominio.com<br>
+Tarcisio Bruni Rangel: tarcisiobruni@hotmail.com<br>
 Lucas Erlacher Rodrigues: lucaserlacher@hotmail.com<br>
 Caio Abelar Kinupp Monteiro: ckinupp@gmail.com<br>
 
