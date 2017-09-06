@@ -26,8 +26,6 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 Mockup: https://github.com/mapadocrime/trab01/blob/master/Trabalho%20de%20BD.pdf<br>
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
