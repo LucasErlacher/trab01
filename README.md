@@ -24,7 +24,7 @@ Este sistema tem um propósito de atender uma grande diversidade de usuários. S
 
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+https://drive.google.com/open?id=0B1yB-iC05D6TSFBVeWpGR2ttY2c <br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
