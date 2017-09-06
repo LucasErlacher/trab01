@@ -7,6 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Tarcisio: email_primeiro_componente@dominio.com<br>
 Lucas Erlacher Rodrigues: lucaserlacher@hotmail.com<br>
+Caio Abelar Kinupp Monteiro: ckinupp@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados Mapa de Ocorrências.
@@ -14,17 +15,16 @@ Este documento contém a especificação do projeto do banco de dados Mapa de Oc
 
 ### 3.MINI-MUNDO<br>
 
-O Mapa de Ocorrências (ou Crime) é um sistema no qual reúne dados dos boletins de ocorrência gerados pelos órgãos de segurança pública e cadastra em um banco de dados com todas essas informações de forma organizada. A partir desses dados é possível fazer consultas mais simples como informações de um boletim individual, ou mesmo uma análise mais profunda como mapas de calor, e cruzamento de informações para obter insights.<br>
-O BO é composto por: Endereço (Logradouro, Número, Complemento, Bairro, Cidade, Estado, CEP, Tipo de Local), Comunicante (Nome, CPF, RG, Sexo, Data de Nascimento, Telefone, E-mail, Estado Civil, Nacionalidade, Profissão, Naturalidade), Ocorrência (Código de ocorrência, Data da Ocorrência, Data do Registro, Método de Registro, Local da Ocorrência, Unidade de Registro).<br>
+O Mapa de Ocorrências (ou Crime) é um sistema no qual reúne dados dos boletins de ocorrência gerados pelos órgãos de segurança pública e cadastra em um banco de dados com todas essas informações de forma organizada. A partir desses dados é possível fazer consultas mais simples como informações de um boletim individual, ou mesmo uma análise mais profunda como mapas de calor, e cruzamento de informações para obter insights. O BO é composto por: Endereço (Logradouro, Número, Complemento, Bairro, Cidade, Estado, CEP, Tipo de Local), Comunicante (Nome, CPF, RG, Sexo, Data de Nascimento, Telefone, E-mail, Estado Civil, Nacionalidade, Profissão, Naturalidade), Ocorrência (Código de ocorrência, Data da Ocorrência, Data do Registro, Método de Registro, Local da Ocorrência, Unidade de Registro), Delegacia (Código da delegacia, unidade, CNPJ, Telefone, Localização, número de ocorrências atendidas), Usuário (Nome, CPF, RG, ID, Senha, Tipo).<br>
 Com todos os dados disponíveis, a única forma de continuar alimentando o banco de dados do sistema para mantê-lo atualizado seria através dos funcionários de uma delegacia, que por sua vez possuirão usuários próprios representando o órgão responsável pelos registro das ocorrências. É importante salientar que o sistema será atualizado todos os dias pela madrugada (especificamente às 3 horas da manhã) para que não ocorra nenhuma sobrecarga dos servidores em momentos de intensa utilização.<br>
 Na tabela que o sistema deverá gerar, contará com a quantidade total de ocorrências em cada município e depois poderá ser visto em categorias diferentes (conforme desejado pelo usuário), além de permitir visualizar o percentual correspondente ao total da quantidade de infrações registradas no estado. Quanto o mapa de calor citado, o sistema deve permitir visualizar a tabela em forma de um mapa do estado colorindo os municípios com cores que representam uma determinada taxa correspondente ao total de ocorrências, com a finalidade de tornar o sistema interativo ao usuário.<br>
-Este sistema tem um propósito de atender uma grande diversidade de usuários. Servirá desde informações para um usuário a respeito de um local que deseja visitar e então opta por fazer uma consulta sobre os índices de furto no local, até a usuários que trabalham em órgãos de Segurança Pública que desejam efetuar uma reorganização de patrulhamento na região a fim de diminuir os índices de ocorrência de uma determinada natureza.<br>
+	Este sistema tem um propósito de atender uma grande diversidade de usuários. Servirá desde informações para um usuário a respeito de um local que deseja visitar e então opta por fazer uma consulta sobre os índices de furto no local, até a usuários que trabalham em órgãos de Segurança Pública que desejam efetuar uma reorganização de patrulhamento na região a fim de diminuir os índices de ocorrência de uma determinada natureza.<br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-https://drive.google.com/open?id=0B1yB-iC05D6TSFBVeWpGR2ttY2c <br>
+Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
