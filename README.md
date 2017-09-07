@@ -36,7 +36,13 @@ Tabela 1.5 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/U
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer:
 <p>O sistema do projeto desenvolvido será capaz de fornecer informações sobre as ocorrências para os usuários em formatos diversos, são eles: Mapa de Calor (torna possível a visualização do estado indicando as taxas de crimes conforme uma cor em específico), Tabela e Relatório (Que será gerado um gráfico formato de pizza comparando dados que o usuário filtrou). Além destas, o usuário poderá ver a tabela de delegacias, etc. </p>
-    b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
+    b) Lista com os principais relatórios:<br>
+    <p>- Lista de Boletins Separados por categorias;<br>
+    - Mapa de calor;<br>
+    - Gráfico;<br>
+    - Lista de Delegacias;<br>
+    - Tabelas com dados do tipo de crime e Estatísticas;<br>
+    - Lista de Endereços.<br></p>
     
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
