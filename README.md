@@ -27,16 +27,17 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 Mockup: https://github.com/mapadocrime/trab01/blob/master/Trabalho%20de%20BD.pdf<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    Tabela 1.1
-    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/Lugar.pdf "Tabela Lugar")
-    Tabela 1.2
-    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/Pessoa.pdf "Tabela Pessoa")
-    Tabela 1.3
-    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/Ocorrencia.pdf "Tabela Ocorrencia")
-    Tabela 1.4
-    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/Delegacias.pdf "Tabela Delegacias")
-    Tabela 1.5
-    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/Usu%C3%A1rios.pdf "Tabela Usuários")
+    Tabela 1.1 - Lugar
+    https://github.com/mapadocrime/trab01/blob/master/images/Lugar.pdf
+    Tabela 1.2 - Pessoa
+    https://github.com/mapadocrime/trab01/blob/master/images/Pessoa.pdf
+    Tabela 1.3 - Ocorrencia
+    https://github.com/mapadocrime/trab01/blob/master/images/Ocorrencia.pdf
+    Tabela 1.4 - Delegacias
+    https://github.com/mapadocrime/trab01/blob/master/images/Delegacias.pdf
+    Tabela 1.5 - Usuários
+    https://github.com/mapadocrime/trab01/blob/master/images/Usu%C3%A1rios.pdf
+    
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual
