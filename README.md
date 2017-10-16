@@ -27,12 +27,15 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 Mockup: https://github.com/mapadocrime/trab01/blob/master/Trabalho%20de%20BD.pdf<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
+Versão 1.0:
 Tabela 1.1 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/Lugar.pdf">Lugar</a> <br>
 Tabela 1.2 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/Pessoa.pdf">Pessoa</a> <br>
 Tabela 1.3 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/Ocorrencia.pdf">Ocorrencias</a> <br>
 Tabela 1.4 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/Delegacias.pdf">Delegacia</a> <br>
 Tabela 1.5 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/Usu%C3%A1rios.pdf">Usuários</a> <br>
-    
+
+Versão 2.0:
+
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
    a) O sistema proposto poderá fornecer:
 <p>O sistema do projeto desenvolvido será capaz de fornecer informações sobre as ocorrências para os usuários em formatos diversos, são eles: Mapa de Calor (torna possível a visualização do estado indicando as taxas de crimes conforme uma cor em específico), Tabela e Relatório (Que será gerado um gráfico formato de pizza comparando dados que o usuário filtrou). Além destas, o usuário poderá ver a tabela de delegacias, etc. </p>
