@@ -36,10 +36,10 @@ Tabela 1.4 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/D
 Tabela 1.5 - <a href="https://github.com/mapadocrime/trab01/blob/master/images/Usu%C3%A1rios.pdf">Usuários</a> <br>
 
 Versão 2.0:
-Tabela Normalizada, validada por:
-- Harã Heique dos Santos
-- 
+
+Tabela Normalizada:
 https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
+
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
    a) O sistema proposto poderá fornecer:
 <p>O sistema do projeto desenvolvido será capaz de fornecer informações sobre as ocorrências para os usuários em formatos diversos, são eles: Mapa de Calor (torna possível a visualização do estado indicando as taxas de crimes conforme uma cor em específico), Tabela e Relatório (Que será gerado um gráfico formato de pizza comparando dados que o usuário filtrou). Além destas, o usuário poderá ver a tabela de delegacias, etc. </p>
