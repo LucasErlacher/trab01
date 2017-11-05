@@ -65,12 +65,11 @@ https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
     [RodoBus]: [Hugo Ramalho, Maria Luiza e Vitor Salzman]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
+    [PESSOA]: Tabela que contem dados comuns tanto de pessoa física quanto pessoa jurídica: nome.
+    [DELEGACIA]: Tabela que contém os dados relevantes da Pessoa Jurídica Delegacia
+    [PESSOAFISICA]: Tabela que contém os dados relevantes de uma pessoa física.
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    Essa decisão de generalizar atributos de Pessoa Física e Jurídica foi tomada utilizando o conceito de especialização do BrModelo para evitar duplicação de atributos no projeto.
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     https://github.com/mapadocrime/trab01/blob/master/images/Descri%C3%A7%C3%A3o%20dos%20Dados.pdf
