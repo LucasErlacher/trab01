@@ -55,19 +55,9 @@ https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
-        * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
-        * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
-        
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
-    
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
-    
+
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/conceitual.png "Modelo Conceitual")
+
         
     
 #### 5.1 Validação do Modelo Conceitual
