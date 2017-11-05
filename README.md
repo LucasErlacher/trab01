@@ -98,18 +98,18 @@ https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
 ### 7	MODELO FÍSICO<br>
-        https://github.com/mapadocrime/trab01/blob/master/7_fisico.sql
+        <a>https://github.com/mapadocrime/trab01/blob/master/7_fisico.sql</a>
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        https://github.com/mapadocrime/trab01/blob/master/8.1_script.sql
+        <a>https://github.com/mapadocrime/trab01/blob/master/8.1_script.sql</a>
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        https://github.com/mapadocrime/trab01/blob/master/8.2_create_insert.sql
+        <a>https://github.com/mapadocrime/trab01/blob/master/8.2_create_insert.sql</a>
         
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-        https://github.com/mapadocrime/trab01/blob/master/8.3_BD_drop_create_insert.sql
+        <a>https://github.com/mapadocrime/trab01/blob/master/8.3_BD_drop_create_insert.sql</a>
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
