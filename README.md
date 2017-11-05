@@ -73,11 +73,7 @@ https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
     b) justifique!
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    https://github.com/mapadocrime/trab01/blob/master/images/Descri%C3%A7%C3%A3o%20dos%20Dados.pdf
 
 
 ### 6	MODELO LÓGICO<br>
