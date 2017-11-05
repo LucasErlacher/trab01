@@ -98,8 +98,7 @@ https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)
+        https://github.com/mapadocrime/trab01/blob/master/7_fisico.sql
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
