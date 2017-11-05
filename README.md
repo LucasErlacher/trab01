@@ -113,9 +113,15 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_where.png "Select com uso do WHERE")<br>
    
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
-     a) Criar no mínimo 2 com operadores lógicos
+   https://github.com/mapadocrime/trab01/blob/master/select_93.sql
+   
+     a) Criar no mínimo 2 com operadores lógico
+     ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_93_34.png "Select com uso do WHERE")<br>
      b) Criar no mínimo 2 com operadores aritméticos
+     
      c) Criar no mínimo 2 com operação de renomear campo
+     ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_93_56.png "Select com uso d")<br>
+     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
