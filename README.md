@@ -22,7 +22,8 @@ Este documento contém a especificação do projeto do banco de dados Mapa de Oc
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+Neste ponto a codificação não é necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas. <br>
+O mockup busca apresentar as funções de forma bem simplificadas em vista do projeto real, mostrando a interface da delegacia e do usuário, em que são permitidos a realização de cadastros e consultas, tudo voltado para as ocorrências. <br>
 
 Mockup: https://github.com/mapadocrime/trab01/blob/master/Trabalho%20de%20BD.pdf<br>
 
