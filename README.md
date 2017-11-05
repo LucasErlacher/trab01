@@ -77,9 +77,7 @@ https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/logico.png "Modelo Lógico")
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
