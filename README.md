@@ -61,8 +61,8 @@ https://github.com/mapadocrime/trab01/blob/master/images/Tabelas_v2.pdf
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Sistema de Eventos]: [Harã Heique, Edmilton Júnior e Guilherme Bodart]
+    [RodoBus]: [Hugo Ramalho, Maria Luiza e Vitor Salzman]
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
