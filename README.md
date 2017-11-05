@@ -123,7 +123,9 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
      ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_93_56.png "Select com uso d")<br>
      
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
-
+   https://github.com/mapadocrime/trab01/blob/master/select_like.sql
+   
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_like.png "Operador LIKE")<br>
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
