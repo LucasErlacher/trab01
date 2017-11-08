@@ -105,12 +105,33 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
    https://github.com/mapadocrime/trab01/blob/master/select_tudo_todas.sql <br>
    
-   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_tudo_todas.png "Resultado da Tabela Usuário")<br>
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/select_bairro.png "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
+   ![Alt text]( "Resultado da Tabela Usuário")<br>
    
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
    https://github.com/mapadocrime/trab01/blob/master/select_where.sql <br>
    
-   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_where.png "Select com uso do WHERE")<br>
+   ![Alt text]( "Select com uso do WHERE")<br>
+   ![Alt text]( "Select com uso do WHERE")<br>
+   ![Alt text]( "Select com uso do WHERE")<br>
+   ![Alt text]( "Select com uso do WHERE")<br>
    
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
    https://github.com/mapadocrime/trab01/blob/master/select_93.sql
