@@ -103,44 +103,83 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>   
+
    select * from bairro;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_bairro_.png "Resultado da Tabela Usuário")<br>
+   
    select * from cidade;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_cidade_.png "Resultado da Tabela Usuário")<br>
+   
    select * from contato;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_contato_.png "Resultado da Tabela Usuário")<br>
+   
    select * from delegacia;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_delegacia_.png "Resultado da Tabela Usuário")<br>
+   
    select * from endereco;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_endereco_.png "Resultado da Tabela Usuário")<br>
+   
    select * from estado;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_estado_.png "Resultado da Tabela Usuário")<br>
+   
    select * from estadocivil;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_estadocivil.png "Resultado da Tabela Usuário")<br>
+   
    select * from logradouro;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_logradouro.png "Resultado da Tabela Usuário")<br>
+   
    select * from nacionalidade;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_nacionalidade.png "Resultado da Tabela Usuário")<br>
+   
    select * from ocorrencia;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_ocorrencia.png "Resultado da Tabela Usuário")<br>
+   
    select * from ocorrencia_tipoocorrencia;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_ocorrencia_tipoocorrencia.png "Resultado da Tabela Usuário")<br>
+   
    select * from pessoa;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_pessoa.png "Resultado da Tabela Usuário")<br>
+   
    select * from pessoafisica;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_pessoafisica.png "Resultado da Tabela Usuário")<br>
+   
    select * from profissao;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_profissao.png "Resultado da Tabela Usuário")<br>
+   
    select * from profissao_pessoa;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_profissao_pessoa.png "Resultado da Tabela Usuário")<br>
+   
    select * from sexo;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_sexo.png "Resultado da Tabela Usuário")<br>
+   
    select * from tipocontato;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_tipocontato.png "Resultado da Tabela Usuário")<br>
+   
    select * from tipoocorrencia;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_tipoocorrencias.png "Resultado da Tabela Usuário")<br>
+   
    select * from usuario;
+   
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_usuario.png "Resultado da Tabela Usuário")<br>
+   
    
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
    https://github.com/mapadocrime/trab01/blob/master/select_where.sql <br>
