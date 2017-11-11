@@ -103,80 +103,81 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>   
-
-   select * from bairro;
+   https://github.com/mapadocrime/trab01/blob/master/select_tudo_todas.sql
+   
+      select * from bairro;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_bairro_.png "Resultado da Tabela Usuário")<br>
    
-   select * from cidade;
+      select * from cidade;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_cidade_.png "Resultado da Tabela Usuário")<br>
    
-   select * from contato;
+      select * from contato;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_contato_.png "Resultado da Tabela Usuário")<br>
    
-   select * from delegacia;
+      select * from delegacia;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_delegacia_.png "Resultado da Tabela Usuário")<br>
    
-   select * from endereco;
+      select * from endereco;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_endereco_.png "Resultado da Tabela Usuário")<br>
    
-   select * from estado;
+      select * from estado;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_estado_.png "Resultado da Tabela Usuário")<br>
    
-   select * from estadocivil;
+      select * from estadocivil;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_estadocivil.png "Resultado da Tabela Usuário")<br>
    
-   select * from logradouro;
+      select * from logradouro;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_logradouro.png "Resultado da Tabela Usuário")<br>
    
-   select * from nacionalidade;
+      select * from nacionalidade;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_nacionalidade.png "Resultado da Tabela Usuário")<br>
    
-   select * from ocorrencia;
+      select * from ocorrencia;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_ocorrencia.png "Resultado da Tabela Usuário")<br>
    
-   select * from ocorrencia_tipoocorrencia;
+      select * from ocorrencia_tipoocorrencia;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_ocorrencia_tipoocorrencia.png "Resultado da Tabela Usuário")<br>
    
-   select * from pessoa;
+      select * from pessoa;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_pessoa.png "Resultado da Tabela Usuário")<br>
    
-   select * from pessoafisica;
+      select * from pessoafisica;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_pessoafisica.png "Resultado da Tabela Usuário")<br>
    
-   select * from profissao;
+      select * from profissao;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_profissao.png "Resultado da Tabela Usuário")<br>
    
-   select * from profissao_pessoa;
+      select * from profissao_pessoa;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_profissao_pessoa.png "Resultado da Tabela Usuário")<br>
    
-   select * from sexo;
+      select * from sexo;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_sexo.png "Resultado da Tabela Usuário")<br>
    
-   select * from tipocontato;
+      select * from tipocontato;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_tipocontato.png "Resultado da Tabela Usuário")<br>
    
-   select * from tipoocorrencia;
+      select * from tipoocorrencia;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_tipoocorrencias.png "Resultado da Tabela Usuário")<br>
    
-   select * from usuario;
+      select * from usuario;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/topico9a/Recortados/select_usuario.png "Resultado da Tabela Usuário")<br>
    
@@ -184,19 +185,19 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
    https://github.com/mapadocrime/trab01/blob/master/select_where.sql <br>
    
-   select * from ocorrencia where fk_endereco_id = 19;
+      select * from ocorrencia where fk_endereco_id = 19;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where1.png "Select com uso do WHERE")<br>
    
-   select nome from bairro where id=1;
+      select nome from bairro where id=1;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where2.png "Select com uso do WHERE")<br>
    
-   select nome from tipoocorrencia where id>=3;
+      select nome from tipoocorrencia where id>=3;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where3.png "Select com uso do WHERE")<br>
    
-   select nome from pessoa where fk_endereco_id = 9;
+      select nome from pessoa where fk_endereco_id = 9;
    
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where4.png "Select com uso do WHERE")<br>
    
@@ -205,50 +206,50 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
    
    a) Criar no mínimo 2 com operadores lógico:<br>
    
-   select * from endereco where fk_bairro_id >= 1  and fk_logradouro_id <= 2;
+      select * from endereco where fk_bairro_id >= 1  and fk_logradouro_id <= 2;
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_logic1.png "Select com uso do WHERE")<br>
      
-    select nome from pessoa where fk_endereco_id = 9 or fk_endereco_id = 11;
+      select nome from pessoa where fk_endereco_id = 9 or fk_endereco_id = 11;
     
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_logic2.png "Select com uso do WHERE")<br>
    
    b) Criar no mínimo 2 com operadores aritméticos:<br>
    
-   select nome, dataocorrencia, age(dataocorrencia) as "Quanto tempo se passou", age(dataocorrencia) - age(dataregistro) as "Tempo até registrar" from ocorrencia inner join pessoa on (ocorrencia.fk_pessoafisica_fk_pessoa_id=pessoa.id);
+      select nome, dataocorrencia, age(dataocorrencia) as "Quanto tempo se passou", age(dataocorrencia) - age(dataregistro) as "Tempo até registrar" from ocorrencia inner join pessoa on (ocorrencia.fk_pessoafisica_fk_pessoa_id=pessoa.id);
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/arithmetic1.png)<br>
    
-   select date_part('year',MAX(dataocorrencia)) - date_part('year',MIN(dataocorrencia)) as "Diferença da data mais recente e da mais antiga (Em anos)" from ocorrencia;
+      select date_part('year',MAX(dataocorrencia)) - date_part('year',MIN(dataocorrencia)) as "Diferença da data mais recente e da mais antiga (Em anos)" from ocorrencia;
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/arithmetic2.png)<br>
    
    c) Criar no mínimo 2 com operação de renomear campo:<br>
    
-   select nome as "Pessoas que moram no endereço 10: " from pessoa where fk_endereco_id =10;
+      select nome as "Pessoas que moram no endereço 10: " from pessoa where fk_endereco_id =10;
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_as.png)<br>
    
-   select nome as "Cidades do ES:" from cidade where fk_estado_id = 1;
+      select nome as "Cidades do ES:" from cidade where fk_estado_id = 1;
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_as2.png)<br>
      
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
    https://github.com/mapadocrime/trab01/blob/master/select_like.sql
    
-   select nome from pessoa where nome LIKE 'C%';
+      select nome from pessoa where nome LIKE 'C%';
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like1_.png "Operador LIKE")<br>
    
-   select nome from pessoa where nome LIKE '%VITÓRIA';
+      select nome from pessoa where nome LIKE '%VITÓRIA';
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like2_.png "Operador LIKE")<br>
    
-   select nome from pessoa where nome LIKE '%LIVIA%';
+      select nome from pessoa where nome LIKE '%LIVIA%';
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like3_.png "Operador LIKE")<br>
    
-   select nome from pessoa where nome NOT LIKE 'C%';
+      select nome from pessoa where nome NOT LIKE 'C%';
 
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like4_.png "Operador LIKE")<br>
    
