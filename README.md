@@ -184,27 +184,74 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
    https://github.com/mapadocrime/trab01/blob/master/select_where.sql <br>
    
-   ![Alt text]( "Select com uso do WHERE")<br>
-   ![Alt text]( "Select com uso do WHERE")<br>
-   ![Alt text]( "Select com uso do WHERE")<br>
-   ![Alt text]( "Select com uso do WHERE")<br>
+   select * from ocorrencia where fk_endereco_id = 19;
+   
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where1.png "Select com uso do WHERE")<br>
+   
+   select nome from bairro where id=1;
+   
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where2.png "Select com uso do WHERE")<br>
+   
+   select nome from tipoocorrencia where id>=3;
+   
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where3.png "Select com uso do WHERE")<br>
+   
+   select nome from pessoa where fk_endereco_id = 9;
+   
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_where/Recortados/select_where4.png "Select com uso do WHERE")<br>
    
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
    https://github.com/mapadocrime/trab01/blob/master/select_93.sql
    
    a) Criar no mínimo 2 com operadores lógico:<br>
-   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_93_34.png "Select com uso do WHERE")<br>
+   
+   select * from endereco where fk_bairro_id >= 1  and fk_logradouro_id <= 2;
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_logic1.png "Select com uso do WHERE")<br>
      
+    select nome from pessoa where fk_endereco_id = 9 or fk_endereco_id = 11;
+    
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_logic2.png "Select com uso do WHERE")<br>
+   
    b) Criar no mínimo 2 com operadores aritméticos:<br>
-   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_93_12.png)<br>
+   
+   select nome, dataocorrencia, age(dataocorrencia) as "Quanto tempo se passou", age(dataocorrencia) - age(dataregistro) as "Tempo até registrar" from ocorrencia inner join pessoa on (ocorrencia.fk_pessoafisica_fk_pessoa_id=pessoa.id);
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/arithmetic1.png)<br>
+   
+   select date_part('year',MAX(dataocorrencia)) - date_part('year',MIN(dataocorrencia)) as "Diferença da data mais recente e da mais antiga (Em anos)" from ocorrencia;
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/arithmetic2.png)<br>
    
    c) Criar no mínimo 2 com operação de renomear campo:<br>
-   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_93_56.png "Select com uso d")<br>
+   
+   select nome as "Pessoas que moram no endereço 10: " from pessoa where fk_endereco_id =10;
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_as.png)<br>
+   
+   select nome as "Cidades do ES:" from cidade where fk_estado_id = 1;
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_Logic_Aritmetic_As/Recortados/select_as2.png)<br>
      
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
    https://github.com/mapadocrime/trab01/blob/master/select_like.sql
    
-   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/select_like.png "Operador LIKE")<br>
+   select nome from pessoa where nome LIKE 'C%';
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like1_.png "Operador LIKE")<br>
+   
+   select nome from pessoa where nome LIKE '%VITÓRIA';
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like2_.png "Operador LIKE")<br>
+   
+   select nome from pessoa where nome LIKE '%LIVIA%';
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like3_.png "Operador LIKE")<br>
+   
+   select nome from pessoa where nome NOT LIKE 'C%';
+
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_like/Recortados/select_like4_.png "Operador LIKE")<br>
+   
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
