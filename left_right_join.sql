@@ -4,4 +4,4 @@ select cpf, rg, datanascimento, cidade.nome from pessoafisica right outer join c
 
 /* LEFT JOIN */
 select nome, login, senha from pessoa left outer join usuario on(pessoa.id = usuario.id)
-select nacionalidade.nome, count(*) from nacionalidade left outer join pessoafisica on(nacionalidade.id = pessoafisica.fk_nacionalidade_id) group by nacionalidade.nome
+select nacionalidade.nome, count(pessoafisica.fk_nacionalidade_id) from nacionalidade left outer join pessoafisica on(nacionalidade.id = pessoafisica.fk_nacionalidade_id) group by nacionalidade.nome
