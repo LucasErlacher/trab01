@@ -1,6 +1,6 @@
 /* RIGHT JOIN */
 select cidade.nome, estado.nome from cidade right outer join estado on (cidade.fk_estado_id = estado.id)
-select cpf, rg, datanascimento, cidade.nome from pessoafisica right outer join cidade on (pessoafisica.fk_cidade_id = cidade.id)
+select cpf, rg, datanascimento, cidade.nome from pessoafisica right outer join cidade on (pessoafisica.fk_cidade_id = cidade.id) order by cidade.nome
 
 /* LEFT JOIN */
 select nome, login, senha from pessoa left outer join usuario on(pessoa.id = usuario.id)
