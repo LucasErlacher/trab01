@@ -326,15 +326,15 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
    
       
         create view nomes_nascimento as  select pessoa.nome, pf.datanascimento from pessoa inner join pessoafisica pf on pessoa.id=pf.fk_pessoa_id order by pf.datanascimento
-select * from nomes_nascimento;
+         select * from nomes_nascimento;
          
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/self_join_view/2.self_join_view.png)<br>
    
-      select pessoa.nome, pf1.cpf, pf2.rg from pessoa inner join pessoafisica pf1 on pessoa.id=pf1.fk_pessoa_id inner join pessoafisica pf2 on pessoa.id=pf2.fk_pessoa_id;
+       select pessoa.nome, pf1.cpf, pf2.rg from pessoa inner join pessoafisica pf1 on pessoa.id=pf1.fk_pessoa_id inner join pessoafisica pf2 on pessoa.id=pf2.fk_pessoa_id;
       
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/self_join_view/3.self_join_view.png)<br>
    
-      select u1.login, u2.senha from usuario u1 inner join usuario u2 on u1.id=u2.id
+       select u1.login, u2.senha from usuario u1 inner join usuario u2 on u1.id=u2.id
       
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/self_join_view/4.self_join_view.png)<br>
    
