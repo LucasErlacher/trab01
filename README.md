@@ -256,6 +256,16 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+        /* UPDATE */
+        update sexo set nome = 'NÃO INFORMADO' where id = 3;
+        update pessoafisica set cpf = 17025193764 where rg = 1651;
+        update nacionalidade set nome = 'BOLIVIANO' where nome = 'MEXICANO';
+
+        /* DELETE */
+        delete from bairro where id = 15;
+        delete from cidade where nome = 'IBATIBA';
+        delete from estadocivil where id = 4;
+         
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         select nome from pessoa p inner join pessoafisica pf on p.id=fk_pessoa_id order by nome desc;
 
@@ -296,31 +306,23 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
    
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+         select cidade.nome, estado.nome from cidade right outer join estado on (cidade.fk_estado_id = estado.id)
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_left_right_join/right_join1.PNG)<br>
+   
+         select cpf, rg, datanascimento, cidade.nome from pessoafisica right outer join cidade on (pessoafisica.fk_cidade_id = cidade.id) order by cidade.nome
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_left_right_join/right_join2.PNG)<br>
+   
+         select nome, login, senha from pessoa left outer join usuario on(pessoa.id = usuario.id)
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_left_right_join/left_join1.PNG)<br>
+         
+         select nacionalidade.nome, count(pessoafisica.fk_nacionalidade_id) from nacionalidade left outer join pessoafisica on(nacionalidade.id = pessoafisica.fk_nacionalidade_id) group by nacionalidade.nome
+   ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_left_right_join/left_join2.PNG)<br>
+         
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
-### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
-### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
-        a) Outros grupos deverão ser capazes de restaurar o banco 
-        b) executar todas as consultas presentes no trabalho
-        c) executar códigos que tenham sido construídos para o trabalho 
-        d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
-        
-### 12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-### 13   TRABALHO DE MINERAÇÃO DE DADOS
-        a) captura das informaçõs
-        b) integração com banco de dados em desenvolvimento
-        c) atualização da documentação do trabalho incluindo a mineração de dados
-        
-### 13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
-### 14 Backup completo do banco de dados postgres 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
-    
 >## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
     
 ### OBSERVAÇÕES IMPORTANTES
