@@ -305,6 +305,36 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/join_order/6.join_order.png "Join e Order")<br>
    
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
+         Numero de brasileiros e estrangeiros
+         select nacionalidade.nome,count(*) from pessoafisica inner join nacionalidade on (pessoafisica.fk_nacionalidade_id = nacionalidade.id) group by nacionalidade.nome;
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_7_1.png)<br>
+
+
+         Numero de solteiros e casados
+         select estadocivil.nome,count(*) from pessoafisica inner join estadocivil on (pessoafisica.fk_estadocivil_id = estadocivil.id) group by estadocivil.nome;
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_7_2.png)<br>
+
+
+         Datas com mais ocorrências
+         select dataocorrencia, count(*) from ocorrencia group by dataocorrencia;
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_7_3.png)<br>
+
+
+         Cidades com mais pessoas cadastradas
+         select cidade.nome, count(*) from pessoafisica inner join cidade on (pessoafisica.fk_cidade_id = cidade.id) group by cidade.nome;
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_7_4.png)<br>
+
+
+         Bairros com mais ocorrências
+         select bairro.nome, count(*) from ocorrencia inner join endereco on (ocorrencia.fk_endereco_id = endereco.id) inner join bairro on (endereco.fk_bairro_id = bairro.id) group by bairro.nome;
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_7_5.png)<br>
+
+
+         Quantidade de ocorrências por tipo
+         select tipoocorrencia.nome, count(*) from ocorrencia_tipoocorrencia inner join tipoocorrencia on (ocorrencia_tipoocorrencia.fk_tipoocorrencia_id = tipoocorrencia.id) group by tipoocorrencia.nome;
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_7_6.png)<br>
+
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
          select cidade.nome, estado.nome from cidade right outer join estado on (cidade.fk_estado_id = estado.id)
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/select_left_right_join/right_join1.PNG)<br>
