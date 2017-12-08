@@ -385,6 +385,21 @@ Código SQL: https://github.com/mapadocrime/trab01/blob/master/9.7_group_by.sql
    
    
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+Código SQL: https://github.com/mapadocrime/trab01/blob/master/subconsulta.sql
+
+
+         Consulta cpf das pessoas que estao dentro de outra consulta
+         select cpf from pessoafisica where fk_cidade_id in (select id from cidade where fk_estado_id = 1);       
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_10_1.png)<br>
+
+         Consulta nome do endereco que foi limitado por outra consulta
+         select nome from endereco where fk_bairro_id in (select id from bairro where fk_cidade_id = 2);
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_10_2.png)<br>
+
+
+         Consulta o cpf de uma pessoa que foi limitado pelo estado civil de uma outra consulta
+         select cpf from pessoafisica where fk_estadocivil_id in (select id from estadocivil where nome = 'SOLTEIRO');
+![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_10_3.png)<br>
 
 >## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
     
