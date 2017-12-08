@@ -305,6 +305,9 @@ https://github.com/mapadocrime/trab01/blob/master/Tabel%C3%A3o%20(GIT)%20-%20GER
    ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/join_order/6.join_order.png "Join e Order")<br>
    
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
+Código SQL: https://github.com/mapadocrime/trab01/blob/master/9.7_group_by.sql
+
+
          Numero de brasileiros e estrangeiros
          select nacionalidade.nome,count(*) from pessoafisica inner join nacionalidade on (pessoafisica.fk_nacionalidade_id = nacionalidade.id) group by nacionalidade.nome;
 ![Alt text](https://github.com/mapadocrime/trab01/blob/master/images/printscreen/9_7_1.png)<br>
